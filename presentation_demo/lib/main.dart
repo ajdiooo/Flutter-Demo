@@ -108,6 +108,12 @@ class _MyHomePageState extends State<MyHomePage> {
                 '${snapshot.error}'
               ),
             );
+          } else {
+            return Center(
+              child: Text(
+                  'Something went wrong...'
+              ),
+            );
           }
         },
       )
